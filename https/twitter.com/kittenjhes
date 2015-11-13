@@ -1,0 +1,64 @@
+auth = OAuthHandler(consumer_key, consumer_secret)
+auth.set_access_token(access_token, access_token_secret)
+twitterApi = API(auth)
+ 
+class ReplyToTweet(StreamListener):
+ 
+    def on_data(self, data):
+        # process stream data here
+ 
+    def on_error(self, status):
+        print status
+ 
+if __name__ == '__main__':
+    streamListener = ReplyToTweet()
+    twitterStream = Stream(auth, r)
+    twitterStream.userstream(_with='@NiallOfficial')
+    auth = OAuthHandler(consumer_key, consumer_secret)
+auth.set_access_token(access_token, access_token_secret)
+twitterApi = API(auth)
+ 
+class ReplyToTweet(StreamListener):
+ 
+    def on_data(self, data):
+        # process stream data here
+ 
+    def on_error(self, status):
+        print status
+ 
+if __name__ == '__main__':
+    streamListener = ReplyToTweet()
+    twitterStream = Stream(auth, r)
+    twitterStream.userstream(_with='@Harry_Styles')
+    auth = OAuthHandler(consumer_key, consumer_secret)
+auth.set_access_token(access_token, access_token_secret)
+twitterApi = API(auth)
+ 
+class ReplyToTweet(StreamListener):
+ 
+    def on_data(self, data):
+        # process stream data here
+ 
+    def on_error(self, status):
+        print status
+ 
+if __name__ == '__main__':
+    streamListener = ReplyToTweet()
+    twitterStream = Stream(auth, r)
+    twitterStream.userstream(_with='@Louis_Tomlinson')
+    auth = OAuthHandler(consumer_key, consumer_secret)
+auth.set_access_token(access_token, access_token_secret)
+twitterApi = API(auth)
+ 
+class ReplyToTweet(StreamListener):
+ 
+    def on_data(self, data):
+        # process stream data here
+ 
+    def on_error(self, status):
+        print status
+ 
+if __name__ == '__main__':
+    streamListener = ReplyToTweet()
+    twitterStream = Stream(auth, r)
+    twitterStream.userstream(_with='@Real_Liam_Payne')
